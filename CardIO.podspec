@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
   spec.frameworks       = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit', 'CoreGraphics', 'Foundation'
   spec.libraries        = 'c++'
   spec.vendored_libraries = 'CardIO/libCardIO.a', 'CardIO/libopencv_core.a', 'CardIO/libopencv_imgproc.a'
+  spec.public_header_files = "CardIO/*.h"
 end
