@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
   spec.libraries        = 'c++'
   spec.vendored_libraries = 'CardIO/libCardIO.a', 'CardIO/libopencv_core.a', 'CardIO/libopencv_imgproc.a'
   spec.public_header_files = "CardIO/*.h"
+  spec.static_framework = true
 end
